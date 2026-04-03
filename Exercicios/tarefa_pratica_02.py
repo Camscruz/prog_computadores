@@ -9,24 +9,21 @@
 
 #Para usar a biblioteca math encontrada no código é necessário primeiro realizar um comando para chamá-la
 
-import math
-
+# 1)
 x, y, z, w = 426027005, 7, 600000000, 17
 
 t = x % y < z // x or x * y / 9 > z + x and z * y < x * w
 
 print(f"O valor de t é: {t}")
 
-import math
-
-x, y, z, w = 426027005, 13, 500000000, 9
+# 2)
+x, y, z, w = 426027005, 13, 500000000, 19
 
 t = x % y < z // x or x * y / 9 > z + x and z * y < x * w
 
 print(f"O valor de t é: {t}")
 
-import math
-
+# 3)
 x, y, z, w = 426027005, 16, 700000000, 12
 
 t = x % y < z // x or x * y / 9 > z + x and z * y < x * w
